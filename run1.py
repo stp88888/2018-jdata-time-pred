@@ -14,6 +14,8 @@ def get_periods_data(data, start_month, end_month):
     else:
         return pd.concat([data[data['month'] >= start_month], data[data['month'] <= end_month]])
 
+
+
 path = './/JDATA_A//'
 
 item_data = pd.read_csv(path+'jdata_sku_basic_info.csv')
