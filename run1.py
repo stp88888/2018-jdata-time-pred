@@ -17,6 +17,7 @@ def get_periods_data(data, start_month, end_month):
 
 
 path = './/JDATA_A//'
+path2 = 123
 
 item_data = pd.read_csv(path+'jdata_sku_basic_info.csv')
 user_data = pd.read_csv(path+'jdata_user_basic_info.csv')
